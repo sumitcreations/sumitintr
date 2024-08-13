@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Portfolio</title>
+    <link rel="stylesheet" href="intro.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="intro-section">
+        <div class="intro-photo">
+            <img src="sumit1.png" alt="Sumit">
+        </div>
+        <div class="intro-text">
+            <h1>Hello, I'm <span class="highlight">Sumit Sharma</span></h1>
+            <p>A 3rd-year Computer Science Engineering student passionate about creating innovative solutions through code. I love exploring new technologies and building exciting projects.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="projects" class="portfolio-section">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of your project. What it does, technologies used, etc.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of your project. What it does, technologies used, etc.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Sumit Sharma]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
